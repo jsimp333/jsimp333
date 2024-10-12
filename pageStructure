@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bird Watching</title>
+    <img src="sourceImages\dove.png" alt="Dove" />
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="additional-styles.css"> -->
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <!-- Site logo -->
+            <img src="logo.png" alt="Bird Watching Logo" id="logo">
+            <!-- Main title -->
+            <h1>Bird Watching Website</h1>
+        </div>
+ 
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Birds</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <section class="welcome-text">
+                <h2>Welcome to the Bird Watching Website</h2>
+                <p>
+                    Here you will find a collection of articles, resources, and stunning bird photographs to help you in your bird-watching journey.
+                </p>
+            </section>
+
+            <aside class="sidebar">
+                <h3>Popular Birds</h3>
+                <img src="sourceImages\favorite-1_th.jpg" alt="Bird 1">
+                <img src="sourceImages\favorite-2_th.jpg" alt="Bird 2">
+                <img src="sourceImages\favorite-3_th.jpg" alt="Bird 3">
+                <img src="sourceImages\favorite-4_th.jpg" alt="Bird 4">
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <p> 2024 Bird Watching Website. All rights reserved.</p>
+        <p>Credits: Images by Bird Photography Co.</p>
+    </footer>
+</body>
+</html>
